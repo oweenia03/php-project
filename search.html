@@ -1,0 +1,20 @@
+<body>
+    <p>
+      <a href="join.html">[회원정보 입력하기]</a>
+      <a href="search.html">[회원정보 검색하기]</a>
+    </p>
+    <h1>회원정보 검색하기</h1>
+    <fieldset>
+      <form action="search_process.php" method="post">
+        <label for="uname">이 름: </label><input type="text" name="uname" id="uname" /><br />
+        <label for="gender">성 별: </label>
+        <select name="gender" id="gender">
+          <option value="all">모두</option>
+          <option value="male">남성만</option>
+          <option value="female">여성만</option>
+        </select>
+        <br />
+        <input type="submit" value="검색" />
+      </form>
+    </fieldset>
+  </body>
