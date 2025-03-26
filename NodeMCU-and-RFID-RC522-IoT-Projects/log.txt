@@ -1,0 +1,27 @@
+Python script started with arguments: ['C:\\APM\\Apache24\\htdocs\\NodeMCU-and-RFID-RC522-IoT-Projects\\motor_close.py']
+Motor rotation command sent.
+Failed to connect to Arduino: could not open port 'COM6': FileNotFoundError(2, '지정된 파일을 찾을 수 없습니다.', None, 2)
+Python script started with arguments: ['C:\\APM\\Apache24\\htdocs\\NodeMCU-and-RFID-RC522-IoT-Projects\\motor_open.py']
+Motor rotation command sent.
+Failed to connect to Arduino: could not open port 'COM5': PermissionError(13, '액세스가 거부되었습니다.', None, 5)
+Python script started with arguments: ['C:\\APM\\Apache24\\htdocs\\NodeMCU-and-RFID-RC522-IoT-Projects\\motor_open.py']
+Error rotating motor: unicode strings are not supported, please encode to bytes: 'o'
+Python script started with arguments: ['C:\\APM\\Apache24\\htdocs\\NodeMCU-and-RFID-RC522-IoT-Projects\\motor_open.py']
+Error rotating motor: unicode strings are not supported, please encode to bytes: 'o'
+Python script started with arguments: ['C:\\APM\\Apache24\\htdocs\\NodeMCU-and-RFID-RC522-IoT-Projects\\motor_open.py']
+Error rotating motor: unicode strings are not supported, please encode to bytes: 'o'
+Python script started with arguments: ['C:\\APM\\Apache24\\htdocs\\NodeMCU-and-RFID-RC522-IoT-Projects\\motor_close.py']
+Error rotating motor: unicode strings are not supported, please encode to bytes: 'r'
+Reached point A
+Reached point A
+Reached point A
+Reached point A
+Reached point A
+Reached point A
+Reached point A
+Reached point A
+Reached point A
+Reached point A
+Reached point A
+Reached point A
+Reached point A
