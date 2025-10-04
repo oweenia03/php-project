@@ -1,4 +1,0 @@
-Traceback (most recent call last):
-  File "C:\APM\Apache24\htdocs\NodeMCU-and-RFID-RC522-IoT-Projects\motor_middleware.py", line 1, in <module>
-    import serial
-ModuleNotFoundError: No module named 'serial'

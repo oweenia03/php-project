@@ -1,0 +1,223 @@
+@import url('https://fonts.googleapis.com/css2?family=Moirai+One&family=Song+Myung&family=Sunflower:wght@300&display=swap');
+@media(max-width:800px){
+    #grid{
+        display: block;
+            }
+    ol{
+        
+        border-right:none;
+        
+        }
+    h1{
+        border-bottom: none;
+        }
+    }
+body {
+    margin: 0;
+}
+
+a {
+    color: black;
+    text-decoration: none;
+}
+
+h1 {
+    font-family: "Sunflower", serif;
+    font-size: 3vw;
+    text-align: center;
+    border-bottom: 3px solid gray;
+    margin: 0;
+    padding: 25px;
+}
+
+
+ul {
+    text-align: center;
+    list-style-type: none;
+    border-right: 3px solid gray;
+    width: 20vw;
+    margin: 0;
+    padding: 20px;
+    padding-left: 1.5vw;
+    padding-right: 3.15vw;
+}
+
+ul li {
+    font-family: "Sunflower", serif;
+    font-size: 1.5vw;
+    margin-top: 0.8vw; /* 각 리스트 아이템 위쪽 여백 */
+    margin-bottom: 1vw; /* 각 리스트 아이템 아래쪽 여백 */
+}
+
+/* 이메일 주소의 글자 크기를 작게 조정합니다. */
+#email-address {
+    font-size: 1vw;
+}
+
+#grid {
+    display: grid;
+    grid-template-columns: 20vw 1fr;
+    column-gap: 0; 
+}
+h2{
+    font-family: "Sunflower", serif;
+    padding-left: 24vw;
+    margin: 2vw;
+}
+#kawai-image {
+    width: 26vw;
+    max-width: 85%;
+    height: auto;
+}
+#kahill-image {
+    margin-left: 14.6vw;
+    width: 56vw;
+    max-width: 100%;
+    height: auto;
+}
+#box{
+    font-family: "Sunflower", serif;
+    font-size: 2vw;
+}
+#show_user_data {
+    margin-left: 14.6vw; /* 왼쪽 여백 */
+    width: 56vw; /* 너비를 뷰포트 너비의 56%로 설정 */
+    max-width: 100%; /* 최대 너비는 100%로 제한 */
+    height: auto; /* 높이를 자동으로 조정 */
+}
+
+#show_user_data table {
+    width: 100%; /* 테이블의 너비를 100%로 설정하여 부모 요소에 맞게 조정 */
+    border-collapse: collapse; /* 테이블 경계 중첩 방지 */
+}
+
+#show_user_data td {
+    padding: 8px; /* 셀 내부 여백 */
+    text-align: left; /* 텍스트 왼쪽 정렬 */
+}
+
+#show_user_data th {
+    padding: 8px; /* 헤더 셀 내부 여백 */
+    background-color: #10a0c5; /* 헤더 배경색 */
+    color: #FFFFFF; /* 헤더 텍스트 색상 */
+}
+
+
+p {
+    font-family: "Sunflower", serif;
+    margin-left: 15.8vw;
+    margin-right: 11.4vw;
+    font-size: 1.3vw;
+    text-align: center;
+
+}
+
+.link-color{
+    color: #006769
+  }
+
+/* 추가된 CSS 코드 */
+.like-content {
+    display: inline-block;
+    width: 162%;
+    margin: -10vw 0 0;
+    padding: 43px 0;
+    font-size: 1.8vw;
+    border-top: 0vw dashed #eee;
+    text-align: center;
+}
+.like-content span {
+  color: #9d9da4;
+  font-family: monospace;
+}
+.like-content .btn-secondary {
+    display: block;
+    margin: 9vw auto 0;
+    text-align: center;
+    background: #ed2553;
+    border-radius: 0.3vw;
+    box-shadow: 0 1vw 2vw -0.8vw rgb(240, 75, 113);
+    padding: 1vw 1.7vw;
+    font-size: 1vw;
+    cursor: pointer;
+    border: none;
+    outline: none;
+    color: #ffffff;
+    text-decoration: none;
+    transition: 0.3s ease;
+    
+}
+.like-content .btn-secondary:hover {
+    transform: translateY(-0.3vw);
+}
+.like-content .btn-secondary .fa {
+    margin-right: 0.5vw;
+}
+.animate-like {
+  animation-name: likeAnimation;
+  animation-iteration-count: 1;
+  animation-fill-mode: forwards;
+  animation-duration: 0.65s;
+}
+@keyframes likeAnimation {
+  0%   { transform: scale(30); }
+  100% { transform: scale(1); }
+}
+
+a.current-page-link {
+    color: #006769 !important; /* 현재 페이지 링크 색상 */
+}
+
+#k3-image{
+    margin-left: 14.6vw;
+    margin-top: 2vw;
+    width: 20vw;
+    max-width: 100%;
+    height: auto;
+}
+
+
+#txt{
+    font-family: "Sunflower", serif;
+    padding-right: 10vw;
+    margin-top: 2vw;
+    margin-bottom: 2vw;
+    margin-left: 5vw;
+    margin-right: 3vw;
+    font-size: 1.7vw;
+}
+
+.ttxt{
+    font-family: "Sunflower", serif;
+    padding-left: 6vw;
+    margin-top: 1vw;
+    margin-bottom: 0.2vw;
+    font-size: 1.2vw;
+    list-style-type: none;
+}
+
+#bottom-txt{
+    font-family: "Sunflower", serif;
+    font-size: 1vw;
+    margin-top: 1vw;
+    margin-bottom: 1vw;
+    margin-left: 1vw; 
+}
+#gif{
+    margin-left: 14.6vw;
+    width: 56vw;
+    max-width: 100%;
+    height: auto;
+}
+
+.playlist{
+    color: #006769;
+    font-family: "Sunflower", serif;
+    margin-left: 63vw;     
+    font-size: 1.5vw;    
+}
+#tagged_data {
+    margin-left: 15vw; /* 값을 조절하여 이동 거리를 변경할 수 있음 */
+}
+
+

@@ -1,0 +1,12 @@
+{
+    "name": "user/node-mcu-and-rfid-rc522-io-t-projects",
+    "description": "My NodeMCU and RFID RC522 IoT Projects",
+    "require": {
+        "mike42/philips-hue-php": "^1.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "": "src/"
+        }
+    }
+}

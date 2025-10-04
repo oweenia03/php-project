@@ -1,9 +1,0 @@
--- CREATE TABLE `tagged_data` (
---   `num` int AUTO_INCREMENT NOT NULL,
---   `id` varchar(100) NOT NULL,
---   `uname` varchar(20) NOT NULL,
---   `price` varchar(15) NOT NULL,
---   `Expiration` date NOT NULL,
---   `stock_status` char(1) NOT NULL,
---   PRIMARY KEY (`num`)  -- PRIMARY KEY를 num에 유지
--- ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4;  -- utf8mb4로 통일
