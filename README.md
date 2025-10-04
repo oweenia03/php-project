@@ -4,7 +4,8 @@ title: RFID를 이용한 도난 방지 무인 편의점
 categories: contest
 tags: [MEIT, PHP, Mysql, Arduino, WEB] 
 ---
-![](https://github.com/oweenia03/owen/blob/main/_site/assets/images/Intro_TagOn.jpg)
+
+![banner](https://github.com/oweenia03/owen/blob/main/_site/assets/images/Intro_Tagon.jpg)
 
 ## 주제 소개
 
